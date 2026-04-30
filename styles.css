@@ -104,11 +104,12 @@ p { color: var(--muted); }
 }
 .hero-topo {
   position: absolute; inset: 0;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='800' height='800' viewBox='0 0 800 800'><g fill='none' stroke='%23d97a2c' stroke-width='1' opacity='0.18'><path d='M-50,400 Q200,250 400,400 T850,400'/><path d='M-50,440 Q200,290 400,440 T850,440'/><path d='M-50,480 Q200,330 400,480 T850,480'/><path d='M-50,520 Q200,370 400,520 T850,520'/><path d='M-50,560 Q200,410 400,560 T850,560'/><path d='M-50,360 Q200,210 400,360 T850,360'/><path d='M-50,320 Q200,170 400,320 T850,320'/><path d='M-50,280 Q200,130 400,280 T850,280'/><path d='M-50,240 Q200,90 400,240 T850,240'/></g></svg>");
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 800' preserveAspectRatio='xMidYMid slice'><g fill='none' stroke='%23d97a2c' stroke-linejoin='round' stroke-linecap='round'><g opacity='0.18' stroke-width='1'><path d='M 150,510 Q 230,460 350,470 T 560,500 Q 540,560 400,560 T 150,510 Z'/><path d='M 250,490 Q 300,475 350,480 T 480,495 Q 460,520 400,520 T 250,490 Z'/><path d='M 650,395 Q 770,290 940,310 T 1140,360 Q 1110,425 940,425 T 650,395 Z'/><path d='M 750,380 Q 810,340 925,355 T 1060,360 Q 1040,400 920,395 T 750,380 Z'/><path d='M 850,365 Q 870,358 905,365 T 980,365 Q 980,378 905,378 T 850,365 Z'/><path d='M -20,720 Q 200,690 400,720 T 800,720 T 1220,720'/><path d='M -20,640 Q 220,610 460,635 T 920,640 T 1220,650'/><path d='M -20,300 Q 180,260 380,290 T 760,280 T 1220,300'/></g><g opacity='0.34' stroke-width='1.4'><path d='M 100,520 Q 200,440 350,460 T 600,500 Q 580,580 400,580 T 100,520 Z'/><path d='M 200,500 Q 270,470 350,475 T 520,500 Q 500,540 400,540 T 200,500 Z'/><path d='M 290,485 Q 320,478 350,482 T 440,490 Q 420,505 390,505 T 290,485 Z'/><path d='M 600,400 Q 750,260 950,280 T 1180,360 Q 1150,440 950,440 T 600,400 Z'/><path d='M 700,388 Q 790,320 935,335 T 1100,360 Q 1075,415 930,410 T 700,388 Z'/><path d='M 800,372 Q 840,355 915,365 T 1020,365 Q 1010,388 915,385 T 800,372 Z'/><path d='M -20,680 Q 200,640 400,680 T 800,680 T 1220,680'/><path d='M -20,760 Q 200,740 400,760 T 800,760 T 1220,760'/><path d='M -20,200 Q 250,140 500,200 T 1000,180 T 1220,200'/></g></g></svg>");
   background-size: cover;
-  opacity: 0.55;
+  background-position: center;
+  opacity: 0.7;
   pointer-events: none;
-  mask-image: radial-gradient(ellipse at center, black 50%, transparent 90%);
+  mask-image: radial-gradient(ellipse at center, black 55%, transparent 95%);
 }
 .hero-grain {
   position: absolute; inset: 0; pointer-events: none;
