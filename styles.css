@@ -240,6 +240,19 @@ section { padding: 110px 0; position: relative; }
 .card-stats dt { font-size: 0.72rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); }
 .card-stats dd { margin: 4px 0 0; font-weight: 600; color: var(--text); }
 
+.route-list { list-style: none; padding: 0; margin: 8px 0 0; }
+.route-list li {
+  display: flex; justify-content: space-between; align-items: baseline;
+  gap: 16px; padding: 14px 0;
+  border-bottom: 1px solid var(--line);
+}
+.route-list li:last-child { border-bottom: 0; }
+.route-name { color: var(--text); font-weight: 600; }
+.route-meta {
+  font-size: 0.72rem; letter-spacing: 0.18em; text-transform: uppercase;
+  color: var(--muted); white-space: nowrap;
+}
+
 /* Media */
 .media-grid {
   display: grid;
