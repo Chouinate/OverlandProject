@@ -102,12 +102,15 @@ p { color: var(--muted); }
     radial-gradient(60% 60% at 20% 80%, rgba(90,110,79,0.18), transparent 60%),
     linear-gradient(180deg, #0a0d0c 0%, #0e1110 60%, #0a0d0c 100%);
 }
+/* Hero background hook.
+   Drop a custom image (PNG/JPG/SVG) at assets/hero-bg.jpg and uncomment
+   the background-image line below. Tune opacity to taste. */
 .hero-topo {
   position: absolute; inset: 0;
-  background-image: url("assets/topo.svg");
+  /* background-image: url("assets/hero-bg.jpg"); */
   background-size: cover;
   background-position: center;
-  opacity: 0.18;
+  opacity: 0.35;
   pointer-events: none;
   mask-image: radial-gradient(ellipse at center, black 40%, transparent 95%);
 }

@@ -1,7 +1,7 @@
-# North Pack Overland
+# Pack Mountain Overland
 
 A static landing site for an overland / offroad media + gear brand.
-Working name: **North Pack Overland** (alt: Pack Mountain Overland).
+Brand: **Pack Mountain Overland**.
 
 ## Stack
 
@@ -44,7 +44,7 @@ The brand name appears in:
 - `index.html` — `<title>`, `.brand-text`, footer, contact email
 - `styles.css` — color tokens at the top of the file (`--accent`, `--moss`, `--sand`)
 
-Search-and-replace `North Pack Overland` to switch names later.
+Search-and-replace `Pack Mountain Overland` to switch names later.
 
 ## Next steps when you're ready to sell
 
