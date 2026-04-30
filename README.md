@@ -20,9 +20,21 @@ python3 -m http.server 8000
 # then visit http://localhost:8000
 ```
 
-## Deploy
+## Deploy on GitHub Pages (one-time setup)
 
-- **GitHub Pages**: enable Pages on `main` (or this branch), root folder.
+A GitHub Actions workflow at `.github/workflows/pages.yml` auto-deploys this site
+on every push to `main` or the active feature branch.
+
+1. Push the repo to GitHub (already done).
+2. On GitHub: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+3. Push (or click **Run workflow** in the Actions tab). The workflow will print
+   the live URL — typically `https://<your-username>.github.io/<repo-name>/`.
+
+To swap to a custom domain later: add a `CNAME` file with your domain, then
+configure the domain in **Settings → Pages**.
+
+### Other hosts (also work, no config needed)
+
 - **Netlify / Vercel / Cloudflare Pages**: import the repo, no build command, publish directory `/`.
 
 ## Customizing the brand
