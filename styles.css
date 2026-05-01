@@ -105,7 +105,7 @@ p { color: var(--muted); }
 .hero-topo {
   position: absolute; inset: 0;
   background-image: url("assets/hero-bg.png");
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   opacity: 0.25;
