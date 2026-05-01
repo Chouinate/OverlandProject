@@ -105,10 +105,10 @@ p { color: var(--muted); }
 .hero-topo {
   position: absolute; inset: 0;
   background-image: url("assets/hero-bg.png");
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: 0.09;
+  opacity: 0.32;
   pointer-events: none;
   mask-image: radial-gradient(ellipse at center, black 60%, transparent 100%);
 }
