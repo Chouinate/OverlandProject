@@ -108,7 +108,7 @@ p { color: var(--muted); }
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: 0.25;
+  opacity: 0.32;
   pointer-events: none;
   mask-image: radial-gradient(ellipse at center, black 60%, transparent 100%);
 }
