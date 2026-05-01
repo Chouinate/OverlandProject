@@ -105,11 +105,12 @@ p { color: var(--muted); }
 .hero-topo {
   position: absolute; inset: 0;
   background-image: url("assets/hero-bg.png");
-  background-size: cover;
+  background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
   opacity: 0.18;
   pointer-events: none;
-  mask-image: radial-gradient(ellipse at center, black 50%, transparent 95%);
+  mask-image: radial-gradient(ellipse at center, black 60%, transparent 100%);
 }
 .hero-grain {
   position: absolute; inset: 0; pointer-events: none;
