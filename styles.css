@@ -136,7 +136,7 @@ p { color: var(--muted); }
 }
 .hero-badge img {
   width: 100%;
-  max-width: 480px;
+  max-width: 360px;
   height: auto;
   filter: drop-shadow(0 30px 60px rgba(0,0,0,0.55))
           drop-shadow(0 0 30px rgba(217,122,44,0.18));
