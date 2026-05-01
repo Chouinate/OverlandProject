@@ -62,7 +62,7 @@ p { color: var(--muted); }
 }
 .brand { display: flex; align-items: center; gap: 10px; color: var(--text); }
 .brand-mark {
-  width: auto; height: 80px;
+  width: auto; height: 120px;
   color: var(--accent);
   display: block;
   object-fit: contain;
@@ -133,11 +133,10 @@ p { color: var(--muted); }
 .hero-inner { max-width: 720px; }
 .hero-badge {
   display: flex; justify-content: center; align-items: center;
-  animation: heroFloat 7s ease-in-out infinite;
 }
 .hero-badge img {
   width: 100%;
-  max-width: 480px;
+  max-width: 720px;
   height: auto;
   filter: drop-shadow(0 30px 60px rgba(0,0,0,0.55))
           drop-shadow(0 0 30px rgba(217,122,44,0.18));
