@@ -1,3 +1,9 @@
+// Disable browser scroll restoration so refreshes always start at the top.
+if ('scrollRestoration' in history) {
+  history.scrollRestoration = 'manual';
+}
+window.addEventListener('beforeunload', () => window.scrollTo(0, 0));
+
 // Year
 document.getElementById('year').textContent = new Date().getFullYear();
 
