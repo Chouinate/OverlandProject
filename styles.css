@@ -50,7 +50,7 @@ p { color: var(--muted); }
 .nav {
   position: fixed; top: 0; left: 0; right: 0; z-index: 50;
   display: flex; align-items: center; justify-content: space-between;
-  padding: 6px 5%;
+  padding: 10px 5%;
   backdrop-filter: blur(12px);
   background: rgba(14,17,16,0.55);
   border-bottom: 1px solid transparent;
@@ -62,7 +62,7 @@ p { color: var(--muted); }
 }
 .brand { display: flex; align-items: center; gap: 10px; color: var(--text); }
 .brand-mark {
-  width: auto; height: 120px;
+  width: auto; height: 75px;
   color: var(--accent);
   display: block;
   object-fit: contain;
@@ -136,7 +136,7 @@ p { color: var(--muted); }
 }
 .hero-badge img {
   width: 100%;
-  max-width: 720px;
+  max-width: 480px;
   height: auto;
   filter: drop-shadow(0 30px 60px rgba(0,0,0,0.55))
           drop-shadow(0 0 30px rgba(217,122,44,0.18));
