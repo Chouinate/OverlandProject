@@ -1,7 +1,7 @@
-# Pack Mountain Overland
+# Pack Mountain Offroad
 
-A static landing site for an overland / offroad media + gear brand.
-Brand: **Pack Mountain Overland**.
+A static landing site for an offroad media + gear brand.
+Brand: **Pack Mountain Offroad**. Tagline: *Pack it in. Pack it out.*
 
 ## Stack
 
@@ -44,7 +44,7 @@ The brand name appears in:
 - `index.html` — `<title>`, `.brand-text`, footer, contact email
 - `styles.css` — color tokens at the top of the file (`--accent`, `--moss`, `--sand`)
 
-Search-and-replace `Pack Mountain Overland` to switch names later.
+Search-and-replace `Pack Mountain Offroad` to switch names later.
 
 ## Next steps when you're ready to sell
 
